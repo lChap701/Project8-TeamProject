@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {}
   },
   "projects": {
@@ -12,21 +13,38 @@
         "projectPath": "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
         "packagesPath": "C:\\Users\\lhapm\\.nuget\\packages\\",
         "outputPath": "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\obj\\",
+=======
+    "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {}
+  },
+  "projects": {
+    "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
+        "projectName": "Project8-GroupProject",
+        "projectPath": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\obj\\",
+>>>>>>> 597819bded61fc77c231bba12c9a455db66f7d81
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\lhapm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+=======
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 597819bded61fc77c231bba12c9a455db66f7d81
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -49,12 +67,15 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.2, )"
+<<<<<<< HEAD
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.2, )"
+=======
+>>>>>>> 597819bded61fc77c231bba12c9a455db66f7d81
             }
           },
           "imports": [
@@ -75,7 +96,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+>>>>>>> 597819bded61fc77c231bba12c9a455db66f7d81
         }
       }
     }
