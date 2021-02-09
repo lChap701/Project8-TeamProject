@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Project8_GroupProject.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Project8_GroupProject
 {
@@ -24,6 +26,11 @@ namespace Project8_GroupProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddControllersWithViews();
+
+            services.AddDbContext<GroupProjectContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("GroupProjectContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
