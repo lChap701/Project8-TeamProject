@@ -5660,29 +5660,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alex\\.nuget\\packages\\": {},
+    "C:\\Users\\LucRu\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
+      "projectUniqueName": "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
       "projectName": "Project8-GroupProject",
-      "projectPath": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
-      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\obj\\",
+      "projectPath": "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
+      "packagesPath": "C:\\Users\\LucRu\\.nuget\\packages\\",
+      "outputPath": "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LucRu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -5725,7 +5727,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
