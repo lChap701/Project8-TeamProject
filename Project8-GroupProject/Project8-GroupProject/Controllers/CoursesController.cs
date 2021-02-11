@@ -17,7 +17,6 @@ namespace Project8_GroupProject.Controllers
     public class CoursesController : Controller
     {
         private readonly GroupProjectContext _context;
-
         // GET: /Courses
         /// <summary>
         /// Displays the Home page/view (Index.cshtml)
