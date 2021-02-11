@@ -18,5 +18,7 @@ namespace Project8_GroupProject.Data
         /// Represents the Accounts table 
         /// </summary>
         public DbSet<Accounts> Accounts { get; set; }
+		
+		// Add a property for the Courses model here
     }
 }
