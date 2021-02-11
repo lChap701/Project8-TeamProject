@@ -7,6 +7,9 @@ using Project8_GroupProject.Models;
 
 namespace Project8_GroupProject.Data
 {
+    /// <summary>
+    /// Used to define the "context" for our database
+    /// </summary>
     public class GroupProjectContext : DbContext
     {
         public GroupProjectContext(DbContextOptions<GroupProjectContext> options)
