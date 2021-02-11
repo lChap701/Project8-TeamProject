@@ -56,7 +56,7 @@ namespace Project8_GroupProject.Controllers
             {
                 password = EncryptPassword(password);
                 var data = _context.Accounts.Where(s => (s.Email.Equals(user) || s.Username.Equals(user)) && s.Password.Equals(password)).ToList();
-                if (data.Count() > 0)
+                if (data.Count > 0)
                 {
                     return RedirectToAction("Index");
                 }

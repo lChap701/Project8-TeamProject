@@ -7,12 +7,10 @@ using Project8_GroupProject.Models;
 
 namespace Project8_GroupProject.Data
 {
-<<<<<<< HEAD
+
     /// <summary>
     /// Used to define the "context" for our database
     /// </summary>
-=======
->>>>>>> 94f42e13dcdf0e1cb70e8e63e9ffb2c0f4e28038
     public class GroupProjectContext : DbContext
     {
         public GroupProjectContext(DbContextOptions<GroupProjectContext> options)
