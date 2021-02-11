@@ -7,6 +7,7 @@ using Project8_GroupProject.Data;
 using Project8_GroupProject.Models;
 using System.Security.Cryptography;
 using System.Text;
+using System.Web;
 
 namespace Project8_GroupProject.Controllers
 {
@@ -16,6 +17,8 @@ namespace Project8_GroupProject.Controllers
     public class CoursesController : Controller
     {
         private readonly GroupProjectContext _context;
+
+        public object Session { get; private set; }
 
         // GET: /Courses
         /// <summary>
@@ -53,11 +56,8 @@ namespace Project8_GroupProject.Controllers
             {
                 password = EncryptPassword(password);
                 var data = _context.Accounts.Where(s => (s.Email.Equals(user) || s.Username.Equals(user)) && s.Password.Equals(password)).ToList();
-                if (data.Count() > 0)
+                if (data.Count > 0)
                 {
-                    // Add session the AccID to session storage
-                    Session["UserID"] = data.FirstOrDefault().AccID;
-
                     return RedirectToAction("Index");
                 }
                 else
