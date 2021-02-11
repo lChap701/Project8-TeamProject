@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Project8_GroupProject.Data;
 
 namespace Project8_GroupProject.Migrations
 {
     [DbContext(typeof(GroupProjectContext))]
-    partial class GroupProjectContextModelSnapshot : ModelSnapshot
+    [Migration("20210210154951_ConfirmPasswordAndAttributes")]
+    partial class ConfirmPasswordAndAttributes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
