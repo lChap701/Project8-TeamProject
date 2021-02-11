@@ -18,8 +18,6 @@ namespace Project8_GroupProject.Controllers
     {
         private readonly GroupProjectContext _context;
 
-        public object Session { get; private set; }
-
         // GET: /Courses
         /// <summary>
         /// Displays the Home page/view (Index.cshtml)
