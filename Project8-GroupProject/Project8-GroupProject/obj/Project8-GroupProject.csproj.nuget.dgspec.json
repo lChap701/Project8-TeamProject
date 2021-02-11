@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
     "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project 8\\team project\\Project8-TeamProject-1\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {}
   },
   "projects": {
@@ -12,12 +13,30 @@
         "projectPath": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project 8\\team project\\Project8-TeamProject-1\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
         "outputPath": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project 8\\team project\\Project8-TeamProject-1\\Project8-GroupProject\\Project8-GroupProject\\obj\\",
+=======
+    "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {}
+  },
+  "projects": {
+    "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
+        "projectName": "Project8-GroupProject",
+        "projectPath": "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
+        "packagesPath": "C:\\Users\\LucRu\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< Updated upstream
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\LucRu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config",
+>>>>>>> Stashed changes
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +91,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< Updated upstream
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
         }
       }
     }
