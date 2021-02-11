@@ -26,6 +26,7 @@ namespace Project8_GroupProject.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Email")
+<<<<<<< HEAD
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -37,6 +38,15 @@ namespace Project8_GroupProject.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
+=======
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(max)");
+>>>>>>> 94f42e13dcdf0e1cb70e8e63e9ffb2c0f4e28038
 
                     b.HasKey("AccID");
 
