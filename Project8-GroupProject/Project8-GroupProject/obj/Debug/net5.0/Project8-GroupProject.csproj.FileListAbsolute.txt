@@ -70,3 +70,4 @@ C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\ob
 C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Project8-GroupProject.genruntimeconfig.cache
 C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\bin\Debug\net5.0\Humanizer.dll
 C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Razor\Views\Courses\Index.cshtml.g.cs
