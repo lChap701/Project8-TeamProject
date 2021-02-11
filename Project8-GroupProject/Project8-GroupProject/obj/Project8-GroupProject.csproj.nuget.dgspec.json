@@ -1,32 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {}
+    "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project 8\\team project\\Project8-TeamProject-1\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {}
   },
   "projects": {
-    "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {
+    "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project 8\\team project\\Project8-TeamProject-1\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
+        "projectUniqueName": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project 8\\team project\\Project8-TeamProject-1\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
         "projectName": "Project8-GroupProject",
-        "projectPath": "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
-        "packagesPath": "C:\\Users\\lhapm\\.nuget\\packages\\",
-        "outputPath": "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\obj\\",
+        "projectPath": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project 8\\team project\\Project8-TeamProject-1\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
+        "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+        "outputPath": "D:\\IHCC\\Class\\Term 6\\Advanced C#\\TeamProject\\Project 8\\team project\\Project8-TeamProject-1\\Project8-GroupProject\\Project8-GroupProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\lhapm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -75,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
