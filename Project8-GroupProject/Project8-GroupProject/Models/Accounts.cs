@@ -14,7 +14,6 @@ namespace Project8_GroupProject.Models
     {
         /// <summary>
         /// Property for the AccID column in the Accounts table
-        /// Property for the AccID column
         /// </summary>
         [Key]
         public int AccID { get; set; }

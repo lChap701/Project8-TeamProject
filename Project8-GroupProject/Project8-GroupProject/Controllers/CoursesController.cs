@@ -45,14 +45,17 @@ namespace Project8_GroupProject.Controllers
         /// </summary>
         /// <param name="user">Represents the email address or username that was submitted</param>
         /// <param name="password">Represents the password that was submitted</param>
-        /// <returns></returns>
+        /// <returns>Returns the view</returns>
         [HttpPost, ValidateAntiForgeryToken]
         public ActionResult Login(string user, string password)
         {
+            // Checks if any errors occurred
             if (ModelState.IsValid)
             {
                 password = EncryptPassword(password);
                 var data = _context.Accounts.Where(s => (s.Email.Equals(user) || s.Username.Equals(user)) && s.Password.Equals(password)).ToList();
+
+                // Checks if an account was found
                 if (data.Count > 0)
                 {
                     return RedirectToAction("Index");
@@ -82,13 +85,16 @@ namespace Project8_GroupProject.Controllers
         /// Attempts to sign up users for the Course Catolog
         /// </summary>
         /// <param name="_user">Represents the data that the user submitted</param>
-        /// <returns></returns>
+        /// <returns>Returns the view</returns>
         [HttpPost, ValidateAntiForgeryToken]
         public ActionResult SignUp(Accounts _user)
         {
+            // Check if any errors occur
             if (ModelState.IsValid)
             {
                 var check = _context.Accounts.Where(a => a.Email != _user.Email);
+
+                // Checks if an email address was found 
                 if (check != null)
                 {
                     _user.Password = EncryptPassword(_user.Password);
@@ -102,6 +108,7 @@ namespace Project8_GroupProject.Controllers
                     return View();
                 }
             }
+
             return View();
         }
 
