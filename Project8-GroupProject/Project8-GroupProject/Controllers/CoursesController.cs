@@ -17,6 +17,7 @@ namespace Project8_GroupProject.Controllers
     public class CoursesController : Controller
     {
         private readonly GroupProjectContext _context;
+
         // GET: /Courses
         /// <summary>
         /// Displays the Home page/view (Index.cshtml)
@@ -27,7 +28,10 @@ namespace Project8_GroupProject.Controllers
             return View();
         }
 
-        /* The Login and SignUp views/pages use concepts from https://dev.to/skipperhoa/login-and-register-using-asp-net-mvc-5-3i0g */
+        /* 
+         * The Login and SignUp views/pages use concepts from: 
+         * - https://dev.to/skipperhoa/login-and-register-using-asp-net-mvc-5-3i0g
+         */
 
         // GET: /Courses/Login
         /// <summary>
@@ -132,7 +136,17 @@ namespace Project8_GroupProject.Controllers
 
             return hash;
         }
-    }
 
-    // Insert method for the Courses view here
+
+        /// <summary>
+        /// Logs out the user
+        /// </summary>
+        /// <returns>Returns the Login view</returns>
+        public IActionResult Logout()
+        {
+            return RedirectToAction("Login");
+        }
+
+        // Insert method for the Courses view here
+    }
 }
