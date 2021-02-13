@@ -150,4 +150,3 @@ D:\Github\Project8-TeamProject\Project8-GroupProject\Project8-GroupProject\obj\D
 D:\Github\Project8-TeamProject\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Project8-GroupProject.genruntimeconfig.cache
 C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Razor\Views\Courses\Signup.cshtml.g.cs
 C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Razor\Views\Home\Signup.cshtml.g.cs
->>>>>>> d875f602fdacafefeef5c92a9ca82a3eefc4f4cc
