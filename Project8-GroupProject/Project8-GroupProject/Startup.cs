@@ -1,15 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Project8_GroupProject.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace Project8_GroupProject
 {
@@ -29,7 +24,7 @@ namespace Project8_GroupProject
 
             services.AddControllersWithViews();
 
-            services.AddDbContext<GroupProjectContext>(options =>
+            object p = services.AddDbContext<GroupProjectContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("GroupProjectContext")));
         }
 

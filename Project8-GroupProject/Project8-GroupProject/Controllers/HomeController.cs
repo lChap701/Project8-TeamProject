@@ -23,7 +23,7 @@ namespace Project8_GroupProject.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult SignUp()
         {
             return View();
         }
