@@ -1,3 +1,7 @@
 *.cache
 .vs/
 *.json
+*.v2
+Project8-GroupProject/.vs/Project8-GroupProject/v16/.suo
+*.dll
+*.cache
