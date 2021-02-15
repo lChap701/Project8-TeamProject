@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {}
+    "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {}
   },
   "projects": {
-    "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {
+    "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
+        "projectUniqueName": "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
         "projectName": "Project8-GroupProject",
-        "projectPath": "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
-        "packagesPath": "C:\\Users\\LucRu\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\Project8-TeamProject\\Project8-GroupProject\\Project8-GroupProject\\obj\\",
+        "projectPath": "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\Project8-GroupProject.csproj",
+        "packagesPath": "C:\\Users\\lhapm\\.nuget\\packages\\",
+        "outputPath": "C:\\IHCC\\Winter 2020\\Group project\\Project8-GroupProject\\Project8-GroupProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LucRu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lhapm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -78,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
