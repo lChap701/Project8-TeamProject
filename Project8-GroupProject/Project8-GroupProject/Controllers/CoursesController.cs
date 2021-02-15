@@ -137,16 +137,6 @@ namespace Project8_GroupProject.Controllers
             return hash;
         }
 
-
-        /// <summary>
-        /// Logs out the user
-        /// </summary>
-        /// <returns>Returns the Login view</returns>
-        public IActionResult Logout()
-        {
-            return RedirectToAction("Login");
-        }
-
         // Insert method for the Courses view here
     }
 }
