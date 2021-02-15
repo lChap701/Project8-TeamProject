@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Project8_GroupProject.Data;
 
 namespace Project8_GroupProject.Migrations
 {
     [DbContext(typeof(GroupProjectContext))]
-    partial class GroupProjectContextModelSnapshot : ModelSnapshot
+    [Migration("20210210154951_ConfirmPasswordAndAttributes")]
+    partial class ConfirmPasswordAndAttributes
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,17 +38,13 @@ namespace Project8_GroupProject.Migrations
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("Password")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Username")
-                        .HasColumnType("nvarchar(max)");
                     b.HasKey("AccID");
+
                     b.ToTable("Accounts");
                 });
+#pragma warning restore 612, 618
         }
     }
 }

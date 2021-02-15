@@ -70,6 +70,10 @@ C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\ob
 C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Project8-GroupProject.genruntimeconfig.cache
 C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\bin\Debug\net5.0\Humanizer.dll
 C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+<<<<<<< HEAD
+C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Razor\Views\Courses\Index.cshtml.g.cs
+=======
+>>>>>>> 94f42e13dcdf0e1cb70e8e63e9ffb2c0f4e28038
 D:\Github\Project8-TeamProject\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Project8-GroupProject.csprojAssemblyReference.cache
 D:\Github\Project8-TeamProject\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Project8-GroupProject.GeneratedMSBuildEditorConfig.editorconfig
 D:\Github\Project8-TeamProject\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Project8-GroupProject.AssemblyInfoInputs.cache
@@ -144,3 +148,5 @@ D:\Github\Project8-TeamProject\Project8-GroupProject\Project8-GroupProject\bin\D
 D:\Github\Project8-TeamProject\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Project8-GroupProject.Views.pdb
 D:\Github\Project8-TeamProject\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Project8-GroupProject.csproj.CopyComplete
 D:\Github\Project8-TeamProject\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Project8-GroupProject.genruntimeconfig.cache
+C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Razor\Views\Courses\Signup.cshtml.g.cs
+C:\IHCC\Winter 2020\Group project\Project8-GroupProject\Project8-GroupProject\obj\Debug\net5.0\Razor\Views\Home\Signup.cshtml.g.cs
